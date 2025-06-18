@@ -1,5 +1,5 @@
-from ComfyUI_SimpleTiles.standard import TileSplit, TileMerge, TileCalc
-from ComfyUI_SimpleTiles.dynamic import DynamicTileSplit, DynamicTileMerge
+from .standard import TileSplit, TileMerge, TileCalc
+from .dynamic import DynamicTileSplit, DynamicTileMerge
 
 NODE_CLASS_MAPPINGS = {
     "TileSplit": TileSplit,
